@@ -20,7 +20,7 @@ const Features = () => {
 
     return (
         <section className={styles.features}>
-            <h2 className={styles.title}>We're different</h2>
+            <h2 className={styles.title}>We&apos;re different</h2>
             <div className={styles.wrapper}>
                 <IconTitleText 
                     icon={"images/icon-snappy-process.svg"}

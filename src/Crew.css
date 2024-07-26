@@ -1,0 +1,68 @@
+/* Main container styles */
+.crew-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  /* Form styles */
+  .crew-form {
+    margin-bottom: 2rem;
+  }
+  
+  .crew-form input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+  }
+  
+  .crew-form button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Card styles */
+  .crew-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Adjust gap between cards */
+  }
+  
+  .crew-card {
+    flex: 1 1 calc(33% - 1rem); /* Adjust card width */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .crew-card > div {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Button styles */
+  .crew-action-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .crew-action-buttons button {
+    margin-right: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .crew-action-buttons button:last-child {
+    margin-right: 0;
+  }
+  
+  .crew-action-buttons button:hover {
+    background-color: #0056b3;
+  }
+  

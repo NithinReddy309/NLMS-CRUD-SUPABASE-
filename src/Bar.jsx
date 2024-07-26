@@ -18,7 +18,7 @@ const Bar = () => {
         <div className={styles.top_bar}>
             <img 
             src="images/logo.svg" 
-            alt="insure logo"
+            alt="NLMS logo"
             />
             <button className={styles.menu_btn} onClick={(e) => {handleClick(e)}}>
             <img 
